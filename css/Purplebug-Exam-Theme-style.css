@@ -84,6 +84,20 @@ body{
   /*border-radius: 25px;*/
   height: 440px;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .slide-content {
+    height: 520px;
+}
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .slide-content {
+    height: 480px;
+}
+}
 .card{
   /*border-radius: 25px;*/
   background-color: #FFF;
